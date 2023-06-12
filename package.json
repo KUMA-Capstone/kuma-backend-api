@@ -1,0 +1,31 @@
+{
+  "name": "kuma-capstone",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/storage": "^6.10.1",
+    "axios": "^1.4.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "brain": "^1.0.0",
+    "cookie-session": "^2.0.0",
+    "cors": "^2.8.5",
+    "exec": "^0.2.1",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "http": "^0.0.1-security",
+    "jsonwebtoken": "^9.0.0",
+    "multer": "^1.4.5-lts.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.3.3",
+    "nodemon": "^2.0.22",
+    "sequelize": "^6.32.0"
+  },
+  "description": ""
+}

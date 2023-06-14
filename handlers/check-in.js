@@ -72,7 +72,7 @@ const newMoodEntry = async (req, res) => {
       res.status(400).json({ error: true, message: 'You can only fill it once a day' });
     } else {
       try {
-        const predictionResponse = await axios.post('https://flask-run-kt5kvwwsya-et.a.run.app/predict', {
+        const predictionResponse = await axios.post('', {
           activities,
           sub_mood,
           story

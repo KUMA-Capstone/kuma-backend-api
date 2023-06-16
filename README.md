@@ -112,7 +112,7 @@ Note : You must include photo to upload. The photo will be store in Cloud Storag
 ```
 Usage
 ```http
-  POST /api/update-user
+  PUT /api/update-user
 ```
 Response
 ```bash
@@ -176,7 +176,7 @@ Response
             "sub_mood": "Excited",
             "activities": "Home",
             "story": "i'm so sleepy today",
-            "prediction": "1.5499999999999998",
+            "prediction": "1",
             "created_at": "2023-06-13T05:36:28.000Z"
         },
         {

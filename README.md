@@ -58,8 +58,6 @@ Base URL : http://localhost:8080
 
 Deployment URL : https://kuma-capstone.et.r.appspot.com (Using JWT Token)
 
-[Run in Postman!](https://www.postman.com/altimetry-geoscientist-69553498/workspace/kuma-capstone/collection/26515902-72094dbb-37ca-484b-a6d9-a9167232659f)
-
 #### User 
 
 | Endpoint | Parameter | Method    | Description                |
